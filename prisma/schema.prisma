@@ -14,4 +14,5 @@ model Contact {
   phone          String
   vesselLocation String
   address        String
+  explanation    String
 }

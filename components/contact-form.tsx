@@ -14,6 +14,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { toast } from "sonner";
+import { Textarea } from "./ui/textarea";
 
 export function ContactForm() {
   const [formData, setFormData] = useState({
@@ -22,6 +23,7 @@ export function ContactForm() {
     phone: "",
     vesselLocation: "",
     address: "",
+    explanation: "",
   });
 
   const handleChange = (e: any) => {
@@ -113,6 +115,12 @@ export function ContactForm() {
               value={formData.address}
               onChange={handleChange}
             />
+          </div>{" "}
+          <div className="grid grid-cols-4 items-center gap-4">
+            <Label htmlFor="text" className="text-right">
+              Explanation
+            </Label>
+            <Textarea value={formData.explanation} onChange={handleChange} />
           </div>
         </div>
         <DialogFooter>
