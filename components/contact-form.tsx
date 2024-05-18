@@ -121,7 +121,14 @@ export function ContactForm() {
             <Label htmlFor="text" className="text-right">
               Explanation
             </Label>
-            <Textarea value={formData.explanation} onChange={handleChange} />
+            <div className="col-span-3">
+              <Textarea
+                id="explanation"
+                value={formData.explanation}
+                onChange={handleChange}
+                className="w-full"
+              />
+            </div>
           </div>
         </div>
         <DialogFooter>
