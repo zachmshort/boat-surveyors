@@ -37,8 +37,9 @@ export function ContactForm() {
   const handleSubmit = async () => {
     try {
       await axios.post("/api/contact", formData);
-      toast.success("We'll be in touch");
+      toast.success("We'll be in touch!");
     } catch (error) {
+      toast.error("There was an error submitting your form");
       console.error("Error sending message:", error);
     }
   };
