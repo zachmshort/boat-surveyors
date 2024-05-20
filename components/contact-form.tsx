@@ -32,7 +32,7 @@ const outfit = Outfit({
   display: "swap",
 });
 export function ContactForm() {
-  const [isDialogOpen, setIsDialogOpen] = useState(true);
+  const [isDialogOpen, setIsDialogOpen] = useState(false);
 
   const [formData, setFormData] = useState({
     name: "",
