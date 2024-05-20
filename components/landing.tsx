@@ -21,10 +21,10 @@ const LandingPage = () => {
       <div className="flex flex-col z-10 h-screen ">
         <div className="flex flex-col mt-[30%] md:mt-[15%] 2xl:mt-[10%] gap-y-3 ml-[5%] text-cyan-950">
           <span className={`${outfit.className} z-10 text-4xl lg:text-7xl`}>
-            Surveying,
+            Surveying&apos;
           </span>
           <span className={`${outfit.className} z-10 text-4xl lg:text-7xl`}>
-            Integrating, &
+            Integrating&apos; &
           </span>
           <span className={`${outfit.className} z-10 text-4xl lg:text-7xl`}>
             Engineering
