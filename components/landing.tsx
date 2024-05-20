@@ -21,10 +21,10 @@ const LandingPage = () => {
       <div className="flex flex-col z-10 h-screen ">
         <div className="flex flex-col mt-[30%] md:mt-[15%] 2xl:mt-[10%] gap-y-3 ml-[5%] text-cyan-950">
           <span className={`${outfit.className} z-10 text-4xl lg:text-7xl`}>
-            Surveying&apos;
+            Surveying&#44;
           </span>
           <span className={`${outfit.className} z-10 text-4xl lg:text-7xl`}>
-            Integrating&apos; &
+            Integrating&#44; &
           </span>
           <span className={`${outfit.className} z-10 text-4xl lg:text-7xl`}>
             Engineering
@@ -32,7 +32,7 @@ const LandingPage = () => {
           <ul className={`${zilla.className} z-10 text-cyan-800`}>
             <li className="text-2xl">systems since 2006.</li>
             <li>
-              Whether you&rsquo;re looking for an in-depth Pre-Buy Survey&apos;
+              Whether you&rsquo;re looking for an in-depth Pre-Buy Survey&#44;
             </li>
             <li>
               or you want to integrate cutting-edge Off-Grid advanced
