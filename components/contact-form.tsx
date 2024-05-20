@@ -176,11 +176,11 @@ export function ContactForm() {
                 }
               >
                 <SelectTrigger className="col-span-3">
-                  <SelectValue placeholder="Select a Reason" />
+                  <SelectValue placeholder="Select" />
                 </SelectTrigger>
                 <SelectContent>
                   <SelectGroup>
-                    <SelectItem value="Appraisal">
+                    <SelectItem value="Off Grid Modifications">
                       Off Grid Modifications
                     </SelectItem>
                     <SelectItem value="Survey">Survey</SelectItem>
