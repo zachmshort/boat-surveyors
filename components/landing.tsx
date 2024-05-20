@@ -31,7 +31,7 @@ const LandingPage = () => {
           </span>
           <ul className={`${zilla.className} z-10 text-cyan-800`}>
             <li className="text-2xl">
-              systems since 2006&#44; serving the eastern seaboard.
+              systems since 2006&#44; serving the south-eastern seaboard.
             </li>
             <li>
               Whether you&rsquo;re looking for an in-depth Pre-Buy Survey&#44;
