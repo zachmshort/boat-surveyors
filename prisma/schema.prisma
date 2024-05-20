@@ -13,6 +13,6 @@ model Contact {
   email          String
   phone          String
   vesselLocation String
-  address        String
-  explanation    String
+  reason         String
+  notes          String
 }

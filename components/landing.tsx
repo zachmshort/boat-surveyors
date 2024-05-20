@@ -1,21 +1,47 @@
 import Image from "next/image";
 import home from "@/public/home.jpg";
 import { ContactForm } from "@/components/contact-form";
+import { Card, CardContent } from "./ui/card";
+import { Outfit, Zilla_Slab } from "next/font/google";
+const outfit = Outfit({
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["900"],
+});
+const zilla = Zilla_Slab({
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["500"],
+});
 const LandingPage = () => {
   return (
-    <div className="">
+    <div>
       <Image src={home} alt="landing page" fill className="object-cover" />
-      <div className="absolute inset-0 bg-black opacity-50"></div>
-      <div className="flex justify-evenly items-center min-h-screen">
-        <section className="z-10 text-lg flex flex-col items-center">
-          <div>We go over your boat ...</div>
-          <div className="text-lg lg:text-2xl">
-            Professional and Experienced Boat Surveyors
-          </div>
-        </section>
-        <section className="z-10">
+      <div className="absolute inset-0 bg-white opacity-40"></div>
+      <div className="flex flex-col z-10 h-screen ">
+        <div className="flex flex-col mt-[30%] md:mt-[15%] 2xl:mt-[10%] gap-y-3 ml-[5%] text-cyan-950">
+          <span className={`${outfit.className} z-10 text-4xl lg:text-7xl`}>
+            Surveying,
+          </span>
+          <span className={`${outfit.className} z-10 text-4xl lg:text-7xl`}>
+            Integrating, &
+          </span>
+          <span className={`${outfit.className} z-10 text-4xl lg:text-7xl`}>
+            Engineering
+          </span>
+          <ul className={`${zilla.className} z-10 text-cyan-800`}>
+            <li className="text-2xl">marine systems since 2006.</li>
+            <li>Whether you're looking for an in-depth Pre-Buy Survey,</li>
+            <li>
+              or you want to integrate cutting-edge Off-Grid advanced
+              technologies...
+            </li>
+            <li className="text-2xl">We're ready to help you get started.</li>
+          </ul>
           <ContactForm />
-        </section>
+        </div>
+
+        <div className="text-sm"></div>
       </div>
     </div>
   );

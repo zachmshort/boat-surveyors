@@ -3,7 +3,7 @@ import Image from "next/image";
 const Logo = () => {
   return (
     <div className="absolute">
-      <div className="flex items-center justify-center text-sm lg:text-3xl font-bold">
+      <div className="flex items-center justify-center text-sm lg:text-3xl font-bold text-cyan-950">
         {" "}
         <Image src={l} alt="logo" height={80} width={80} />
         Boat Works Marine Surveyors
