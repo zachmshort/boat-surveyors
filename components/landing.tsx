@@ -20,18 +20,21 @@ const LandingPage = () => {
       <div className="absolute inset-0 bg-white opacity-40"></div>
       <div className="flex flex-col z-10 h-screen ">
         <div className="flex flex-col mt-[30%] md:mt-[15%] 2xl:mt-[10%] gap-y-3 ml-[5%] text-cyan-950">
-          <span className={`${outfit.className} z-10 text-4xl lg:text-7xl`}>
+          <span className={`${outfit.className} z-10 text-4xl lg:text-6xl`}>
             Surveying&#44;
           </span>
-          <span className={`${outfit.className} z-10 text-4xl lg:text-7xl`}>
+          <span className={`${outfit.className} z-10 text-4xl lg:text-6xl`}>
             Integrating&#44; &
           </span>
-          <span className={`${outfit.className} z-10 text-4xl lg:text-7xl`}>
+          <span className={`${outfit.className} z-10 text-4xl lg:text-6xl`}>
             Engineering
+          </span>
+          <span className={`${outfit.className} z-10 text-4xl lg:text-6xl`}>
+            Systems.
           </span>
           <ul className={`${zilla.className} z-10 text-cyan-800`}>
             <li className="text-2xl">
-              systems since 2006&#44; serving the south-eastern seaboard.
+              Serving the south-eastern seaboard since 2006.
             </li>
             <li>
               Whether you&rsquo;re looking for an in-depth Pre-Buy Survey&#44;
