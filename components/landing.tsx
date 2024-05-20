@@ -1,8 +1,8 @@
 import Image from "next/image";
 import home from "@/public/home.jpg";
 import { ContactForm } from "@/components/contact-form";
-import { Card, CardContent } from "./ui/card";
 import { Outfit, Zilla_Slab } from "next/font/google";
+
 const outfit = Outfit({
   subsets: ["latin"],
   display: "swap",

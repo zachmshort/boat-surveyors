@@ -64,7 +64,7 @@ export function ContactForm() {
     );
 
     if (missingFields.length > 0) {
-      toast.error(`Missing info for some required fields`);
+      toast.error(`The only field you may skip is adding notes`);
       return;
     }
 
