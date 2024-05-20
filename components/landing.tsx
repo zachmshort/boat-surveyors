@@ -31,7 +31,7 @@ const LandingPage = () => {
           </span>
           <ul className={`${zilla.className} z-10 text-cyan-800`}>
             <li className="text-2xl">marine systems since 2006.</li>
-            <li>Whether you're looking for an in-depth Pre-Buy Survey,</li>
+            <li>Whether you're looking for an in-depth Pre-Buy Survey&apos;</li>
             <li>
               or you want to integrate cutting-edge Off-Grid advanced
               technologies...
